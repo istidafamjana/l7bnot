@@ -11,12 +11,12 @@ from threading import Thread
 app = Flask(__name__)
 
 ####################################
-key2 = "projects_xxx_3ei93k_codex_xdfox"
+key2 = "l7aj-ff-mxfo-8k-xx12"
 jwt_token = None  
 
 def get_jwt_token():
     global jwt_token
-    url = "https://projects-fox-x-get-jwt.vercel.app/get?uid=3840462225&password=A1AD003C1B4761C96F1168410AD5EA557BE8E837E8A75B99BE9A34EEC4154492"
+    url = "https://projects-fox-x-get-jwt.vercel.app/get?uid=3881983395&password=B3E8E356019431DE9B3AA9B307926EDE73FA9A285D701572FEE19193EBD0F006"
     try:
         response = httpx.get(url)
         if response.status_code == 200:
