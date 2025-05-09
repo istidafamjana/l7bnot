@@ -11,7 +11,7 @@ from threading import Thread
 app = Flask(__name__)
 
 ####################################
-key2 = "l7aj-ff-mxfo-8k-xx12"
+key2 = "projects_xxx_3ei93k_codex_xdfox"
 jwt_token = None  
 
 def get_jwt_token():
